@@ -42,8 +42,11 @@ app.use((err, req, res) => {
   res.status(500).send('Internal Serverless Error');
 });
 //Node js | Heroku
+/*
 app.listen(port, ()=> {
   console.log("run in port port: " + port );
 })
+*/
+
 //serveless framework
-//module.exports = app;
+module.exports = app;
